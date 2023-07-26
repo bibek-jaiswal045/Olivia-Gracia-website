@@ -564,5 +564,76 @@ a {
   background-repeat:no-repeat ;
   background-size: cover;
   background-attachment: fixed;
+}
 
+.chart-portion{
+  background-color: var(--secondary-color);
+  border-radius: 40px;
+  margin: 100px 0;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.chart-portion .subheading{
+  color: var(--tertiary-color);
+}
+
+.chart-portion .banner-btn{
+  max-width: 100%;
+  display: inline-block;
+  margin: 40px 0 38px;
+}
+
+.chart-portion .banner-btn:hover{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.chart-portion h2{
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 400;
+  padding: 8px 0 16px;
+
+}
+
+.newsletter{
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.form{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bottom-section{
+  background-color: #ffffff;
+}
+
+.newsletter .banner-btn{
+  padding: auto;
+  padding: 12px 14px ;
+
+}
+
+.newsletter h2{
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 400;
+
+}
+
+input{
+  padding: 12px 14px ;
+  background-color: #ECEFF0;
+  border: 1px solid #ECEFF0;
+  color: var(--primary-font-color);
+  border-radius: 8px;
 }
